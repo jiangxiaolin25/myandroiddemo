@@ -1,10 +1,15 @@
 package com.example.fragmentdemo;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Fragment;
+
 import android.os.Bundle;
 import android.util.Log;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
          Log.v("TAG","onCreate");
 
         Myfragment1 name=new Myfragment1();
-        getFragmentManager().beginTransaction().replace(R.id.LinearLayout1,name).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fagment1,name).commit();
     }
 }

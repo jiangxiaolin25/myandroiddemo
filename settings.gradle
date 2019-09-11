@@ -1,1 +1,1 @@
-include ':app', ':aidlclient', ':aidlclien2', ':client', ':service', ':dependonmould', ':dependonmould2', ':fragmentdemo'
+include ':app', ':aidlclient', ':aidlclien2', ':client', ':service', ':dependonmould2', ':fragmentdemo', ':preferenceactivityandfragment', ':simcardstatue', ':tcpservice', ':tcpclient', ':bluetoothtest', ':bitmap'

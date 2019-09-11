@@ -1,15 +1,16 @@
 package com.example.jiangxiaolin.firsttest;
 
+import android.annotation.SuppressLint;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.AsyncTask;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,6 +18,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.jiangxiaolin.myapplication.IMyAidlInterface;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
      private TextView mTextView1;
@@ -36,12 +39,13 @@ public class MainActivity extends AppCompatActivity {
             super();
         }
 
+
         @Override
         protected String doInBackground(String... strings) {
              Log.v("TAG","doInBackground");
              int a=0;
              int b=2;
-             mTextView1.setText(strings[0]);
+
              while (a<99) {
                  a+=b;
                  publishProgress(a);
@@ -52,10 +56,7 @@ public class MainActivity extends AppCompatActivity {
                  }
 
              }
-
             return "ceshi123456";
-
-
         }
 
         @Override
@@ -75,25 +76,18 @@ public class MainActivity extends AppCompatActivity {
             mTextView1.setText(s);
 
         }
-
         @Override
         protected void onProgressUpdate(Integer... values) {
             super.onProgressUpdate(values);
              Log.v("TAG","onPostExecute");
              mProgressBar.setProgress(values[0]);
-
-
-
         }
-
         @Override
         protected void onCancelled(String s) {
             super.onCancelled(s);
              Log.v("TAG","onCancelled");
              mButton.setText("已经取消");
-
         }
-
         @Override
         protected void onCancelled() {
             super.onCancelled();

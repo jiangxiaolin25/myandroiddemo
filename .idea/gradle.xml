@@ -3,22 +3,32 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AndroidPOI" />
             <option value="$PROJECT_DIR$/aidlclien2" />
             <option value="$PROJECT_DIR$/aidlclient" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bitmap" />
+            <option value="$PROJECT_DIR$/bluetoothtest" />
             <option value="$PROJECT_DIR$/client" />
-            <option value="$PROJECT_DIR$/dependonmould" />
             <option value="$PROJECT_DIR$/dependonmould2" />
             <option value="$PROJECT_DIR$/fragmentdemo" />
+            <option value="$PROJECT_DIR$/preferenceactivityandfragment" />
             <option value="$PROJECT_DIR$/service" />
+            <option value="$PROJECT_DIR$/simcardstatue" />
+            <option value="$PROJECT_DIR$/tcpclient" />
+            <option value="$PROJECT_DIR$/tcpservice" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

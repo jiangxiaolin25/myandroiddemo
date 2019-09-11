@@ -6,6 +6,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="这是第二个"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="@color/colorPrimary"/>
 
 </LinearLayout>
