@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Androiddemo.iml" filepath="$PROJECT_DIR$/Androiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlclien2/aidlclien2.iml" filepath="$PROJECT_DIR$/aidlclien2/aidlclien2.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
@@ -11,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependonmould2/dependonmould2.iml" filepath="$PROJECT_DIR$/dependonmould2/dependonmould2.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" filepath="$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myandroiddemo.iml" filepath="$PROJECT_DIR$/myandroiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/preferenceactivityandfragment/preferenceactivityandfragment.iml" filepath="$PROJECT_DIR$/preferenceactivityandfragment/preferenceactivityandfragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/simcardstatue/simcardstatue.iml" filepath="$PROJECT_DIR$/simcardstatue/simcardstatue.iml" />

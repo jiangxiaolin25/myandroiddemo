@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
          Log.v("TAG","onCreate");
 
+
+
         Myfragment1 name=new Myfragment1();
         getFragmentManager().beginTransaction().replace(R.id.fagment1,name).commit();
     }
