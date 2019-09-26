@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/bluetoothtest/bluetoothtest.iml" filepath="$PROJECT_DIR$/bluetoothtest/bluetoothtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" filepath="$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpcclientdemo/grpcclientdemo.iml" filepath="$PROJECT_DIR$/grpcclientdemo/grpcclientdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grpcservicedemo/grpcservicedemo.iml" filepath="$PROJECT_DIR$/grpcservicedemo/grpcservicedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myandroiddemo.iml" filepath="$PROJECT_DIR$/myandroiddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/preferenceactivityandfragment/preferenceactivityandfragment.iml" filepath="$PROJECT_DIR$/preferenceactivityandfragment/preferenceactivityandfragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
