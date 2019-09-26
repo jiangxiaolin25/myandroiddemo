@@ -3,9 +3,11 @@ package com.example.preferenceactivityandfragment;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
-import android.support.annotation.Nullable;
+
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 import static android.content.Context.MODE_WORLD_READABLE;
 

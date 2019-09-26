@@ -9,10 +9,12 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
+
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by jiangxiaolin on 2019/8/12.
@@ -34,20 +36,20 @@ public class myservicer extends Service {
     private final static int SIM_INVALID = 1;
     private int simState = SIM_INVALID;
     String SIMstatus="android.intent.action.SIM_STATE_CHANGED";
-    public static String getImsi(Context context) {
-        TelephonyManager tm = (TelephonyManager) context
-                .getSystemService(Context.TELEPHONY_SERVICE);
-        String deviceid = tm.getDeviceId();// 获取智能设备唯一编号
-        String te1 = tm.getLine1Number();// 获取本机号码
-        String simei = tm.getSimSerialNumber();// 获得SIM卡的序号
-        String imsi = tm.getSubscriberId();// 得到用户Id
-        if (imsi != null && !imsi.equals("")) {
-            Log.v("TAG", "获取手机信息====Deviceid" + deviceid + "teleNum" + te1
-                    + "SimNUM" + simei + "UserId" + imsi);
-            return imsi;
-        }
-        return "未知";
-    }
+//    public static String getImsi(Context context) {
+////        TelephonyManager tm = (TelephonyManager) context
+////                .getSystemService(Context.TELEPHONY_SERVICE);
+////        String deviceid = tm.getDeviceId();// 获取智能设备唯一编号
+////        String te1 = tm.getLine1Number();// 获取本机号码
+////        String simei = tm.getSimSerialNumber();// 获得SIM卡的序号
+////        String imsi = tm.getSubscriberId();// 得到用户Id
+////        if (imsi != null && !imsi.equals("")) {
+////            Log.v("TAG", "获取手机信息====Deviceid" + deviceid + "teleNum" + te1
+////                    + "SimNUM" + simei + "UserId" + imsi);
+////            return imsi;
+////        }
+////        return "未知";
+//    }
 
     @Override
     public void onDestroy() {

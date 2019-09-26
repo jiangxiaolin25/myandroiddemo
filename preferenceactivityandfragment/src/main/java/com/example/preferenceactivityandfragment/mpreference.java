@@ -6,9 +6,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
-import android.support.annotation.Nullable;
+
 
 import java.util.List;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by jiangxiaolin on 2019/7/25.
