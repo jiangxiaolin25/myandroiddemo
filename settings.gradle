@@ -1,1 +1,1 @@
-include ':app', ':aidlclient', ':aidlclien2', ':client', ':service', ':fragmentdemo', ':preferenceactivityandfragment', ':simcardstatue', ':tcpservice', ':tcpclient', ':bluetoothtest', ':bitmap', ':grpcservicedemo', ':grpcclientdemo'
+include ':app', ':aidlclient', ':aidlclien2', ':client', ':service', ':fragmentdemo', ':preferenceactivityandfragment', ':simcardstatue', ':tcpservice', ':tcpclient', ':bluetoothtest', ':bitmap', ':grpcservicedemo', ':grpcclientdemo', ':demopay', ':powermanagedemo'
